@@ -1,0 +1,763 @@
+@media screen and (max-width: 1285px) {
+    /* ! reviews section style are here  */
+    .reviews-title {
+        width: 50%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1240px) {
+    /* ! hero section style are here  */
+    .hero-left-side {
+        width: 450px;
+    }
+    .hero-left-side .tasks {
+        width: 400px;
+        height: 396px;
+        margin: 85px 0 0 85px;
+    }
+    .hero-left-side img {
+        margin-top: 40px;
+    }
+    .hero-left-side .tasks {
+        width: 360px;
+        height: 550px;
+        margin: 55px 0 0 65px;
+    }
+    .tasks :nth-child(2) {
+        width: 360px;
+        height: 260px;
+    }
+    .tasks :nth-child(3) {
+        width: 360px;
+        height: 170px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 1170px) {
+    /*! introduction section style are here  */
+    .introduction-top-left > img{
+        margin-left: 100px;
+    }
+    .introduction-top-left > h2{
+        padding-left: 100px;
+    }
+    .introduction-bottom {
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    .coaching, .consultation, .group_coaching {
+        width: 350px;
+        height: 300px;
+        padding: 25px;
+        margin-bottom: 20px;
+    }
+
+    /*! free-guide section style are here  */
+    .free-guide-left {
+        padding: 140px 50px 0 70px;
+      }
+}
+
+
+
+
+@media screen and (max-width: 1100px) {
+    /*! introduction section style are here  */
+    .coaching, .consultation, .group_coaching {
+        width: 380px;
+        height: 328px;
+        padding: 40px;
+    }
+
+    /*! reviews section style are here  */
+    #reviews {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .clients-reviews {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    /*! hero section style are here  */
+    .frame {
+        margin-left: 20px;
+    }
+    .hero-person-img {
+        left: 103px;
+    }
+
+
+    /*! reviews section style are here  */
+    .reviews-title {
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    /*! hero section style are here  */
+    .hero-person-img {
+        width: 385px;
+    }
+
+
+    /*! reviews section style are here  */
+    .client1-review, .client2-review, .client3-review {
+        max-width: 350px;
+    }
+}
+
+
+
+@media screen and (max-width: 950px) {
+    /*! header section style are here  */
+    .header {
+        padding: 0 30px 0 40px;
+    }
+    .logo2 {
+        left: 48px;
+    }
+    .header-navigation {
+        display: none;
+    }
+    .navaigation-icon {
+        display: block;
+    }
+
+    /*! blogs section style are here  */
+    .blogs-items {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+
+    /*! free-guide section style are here  */
+    .free-guide-left > h2 {
+        font-size: 40px;
+      }
+    .free-guide-details :nth-child(1) {
+        font-size: 18px;
+      }
+    .free-guide-details :nth-child(2) {
+        font-size: 14px;
+    }
+
+    /*! footer section style are here  */
+    .footer-top-container {
+        padding: 0px 0px;
+    }
+    .footer-top-left-content > h2 {
+        font-size: 26px;
+    }
+    .footer-top-left-content > p {
+        font-size: 16px;
+    }
+    .footer-top-right-content :nth-child(1) {
+        width: 260px;
+    }
+}
+
+@media screen and (max-width: 920px) { 
+    /* ! hero section style are here  */
+    .hero-left-side {
+        width: 380px;
+    }
+    .hero-left-side .tasks {
+        width: 315px;
+    }
+    .tasks :nth-child(1) {
+        font-size: 14px;
+    }
+    .tasks :nth-child(2) {
+        width: 300px;
+        font-size: 55px;
+    }
+    .tasks :nth-child(3) {
+        width: 300px;
+        font-size: 15px;
+    }
+    .frame {
+        max-width: 180px;
+        padding: 10px;
+        gap: 5px;
+    }
+    .frame-details > h2 {
+        font-size: 20px;
+    }
+    .frame-details > p{
+        font-size: 10px;
+    }
+    .hero-person-img {
+        width: 315px;
+        left: 85px;
+    }
+
+    /*! reviews section style are here  */
+    .reviews-title {
+        font-size: 45px;
+        width: 70%;
+    }
+    
+}
+
+
+
+@media screen and (max-width:880px) {
+    /*! reviews section style are here  */
+    #reviews {
+        padding-left: 75px;
+    }
+    .clients-reviews {
+        gap: 10px;
+    }
+    .client1-review, .client2-review, .client3-review {
+        max-width: 310px;
+        padding: 30px;
+        margin-bottom: 50px;
+    }
+    .client1-review p, .client2-review p, .client3-review p {
+        font-size: 20px;
+    }
+
+    /*! free-guide section style are here  */
+    .free-guide-left {
+        padding: 115px 40px 0 50px;
+      }
+    .free-guide-left > h2 {
+        font-size: 35px;
+      }
+    .free-guide-details :nth-child(1) {
+        font-size: 17px;
+      }
+    .free-guide-details :nth-child(2) {
+        font-size: 13px;
+    }
+
+    .background {
+        max-width: 380px;
+    }
+    .free-guide-logo {
+        margin-left: -85px;
+    }
+}
+
+
+
+
+@media screen and (max-width:810px) {
+    /*! blogs section style are here  */
+    .blog-cart {
+        max-width: 300px;
+    }
+
+
+    /*! cta section style are here  */
+    .cta-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cta-left-content {
+        width: 100%;
+    }
+    .cta-right-content {
+        width: 100%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 785px) {
+    /* ! hero section style are here  */
+    #hero {
+        flex-direction: column;
+        height: 1245px;
+    }
+    .hero-left-side {
+        width: 100%;
+        margin: 0 auto;
+     }
+     .hero-left-side .tasks {
+        width: 480px;
+        height: 495px;
+        margin: 15px auto 0 auto;
+    }
+    .tasks :nth-child(1) {
+        font-size: 16px;
+    }
+    .tasks :nth-child(2) {
+        width: 100%;
+        height: 180px;
+        font-size: 72px;
+    }
+    .tasks :nth-child(3) {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .hero-right-side {
+        width: 100%;
+    }
+    .frame {
+        max-width: 237px;
+        padding: 24px;
+        gap: 10px;
+        margin-left: 66px;
+    }
+    .frame-details > h2 {
+        font-size: 24px;
+    }
+    .frame-details > p{
+        font-size: 12px;
+    }
+    .hero-person-img {
+        width: 462px;
+        left: 160px;
+    }
+
+    /* ! introduction setion style are here  */
+    .introduction-top-left > img {
+        margin: 96px 0 0 34px;
+    }
+    .introduction-top-left > h2 {
+        padding-left: 34px;
+        font-size: 40px;
+    }
+    .introduction-top-right {
+        padding: 129px 30px 0 30px;
+    }
+    .introduction-top-right > p {
+        font-size: 15px;
+    }
+    /*! reviews section style are here  */
+    .reviews-title {
+        width: 79%;
+    }
+
+    /*! free-guide section style are here  */
+    #free-guide {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    .free-guide-left > h2 {
+        font-size: 48px;
+      }
+    .free-guide-details :nth-child(1) {
+        font-size: 22px;
+      }
+    .free-guide-details :nth-child(2) {
+        font-size: 17px;
+    }
+
+    .background {
+        max-width: 446px;
+    }
+    .free-guide-logo {
+        margin-left: 50px;
+    }
+    /*! footer section style are here  */
+    .footer-top-content {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer-top-left-content > h2 {
+        font-size: 30px;
+    }
+    .footer-top-left-content > p {
+        font-size: 20px;
+    }
+    .footer-top-right-content :nth-child(1) {
+        width: 280px;
+    }
+    .footer-bottom {
+        margin: 0px 10px;
+    }
+    .footer-bottom-content {
+        gap: 0px;
+    }
+    .footer-logo-and-details {
+        margin-right: 30px;
+    }
+    .footer-nav {
+        margin-right: 30px;
+    }
+}
+
+
+
+@media screen and (max-width:730px) {
+    /*! reviews section style are here  */
+    #reviews {
+        padding-left: 125px;
+    }
+    .clients-reviews {
+        gap: 0px;
+        justify-content: flex-start;
+    }
+    .client1-review, .client2-review, .client3-review {
+        max-width: 400px;
+        padding: 48px;
+    }
+    .client1-review p, .client2-review p, .client3-review p {
+        font-size: 24px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 685px) {
+    /*! reviews section style are here  */
+    .reviews-title {
+        width: 92%;
+    }
+
+    /*! blogs section style are here  */
+    .blog-cart section {
+        max-width: 360px;
+    }
+}
+
+
+@media screen and (max-width: 630px) {
+    /* ! hero section style are here  */
+    .frame {
+        max-width: 180px;
+        padding: 10px;
+        gap: 5px;
+    }
+    .frame-details > h2 {
+        font-size: 20px;
+    }
+    .frame-details > p{
+        font-size: 10px;
+    }
+    .hero-person-img {
+        width: 315px;
+        left: 150px;
+    }
+
+    /*! reviews section style are here  */
+    #reviews {
+        padding-top: 70px;
+        padding-left: 60px;
+    }
+    .reviews-title {
+        width: 100%;
+        font-size: 35px;
+    }
+    .clients-reviews {
+        justify-content: center;
+    }
+
+    /*! blogs section style are here  */
+    .blogs-title > h2 {
+        font-size: 40px;
+    }
+
+    /*! footer section style are here  */
+
+    .footer-bottom-content {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 515px) {
+    /* ! hero section style are here  */
+    .hero-left-side {
+        width: 380px;
+    }
+    .hero-left-side .tasks {
+        width: 315px;
+    }
+    .tasks :nth-child(1) {
+        font-size: 14px;
+    }
+    .tasks :nth-child(2) {
+        width: 300px;
+        font-size: 55px;
+        line-height: 60px;
+    }
+    .tasks :nth-child(3) {
+        width: 300px;
+        font-size: 15px;
+    }
+
+    .frame {
+        left: 20px;
+    }
+    .hero-person-img {
+        width: 315px;
+        left: 120px;
+    }
+    /*! blogs section style are here  */
+    .blogs-title {
+        padding: 65px 20px 65px 20px;
+    }
+    .blogs-title > h2 {
+        font-size: 35px;
+    }
+
+    /*! free-guide section style are here  */
+    .free-guide-heading {
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    .free-guide-heading > h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .background {
+        max-width: 360px;
+    }
+    .free-guide-logo {
+        margin-left: -125px;
+    }
+
+
+    /* ! footer section style are here  */
+
+    .footer-bottom-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer-logo-and-details {
+        width: 100%;
+    }
+    .footer-nav {
+        width: 100%;
+    }
+    .footer-contact {
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:475px) {
+    /*! footer section style are here  */
+    .footer-top-content {
+        align-items: flex-start;
+    }
+    .footer-top-left-content > h2 {
+        font-size: 26px;
+    }
+    .footer-top-left-content > p {
+        font-size: 16px;
+    }
+    .footer-top-right-content :nth-child(1) {
+        width: 230px;
+    }
+    .footer-top-right-content :nth-child(2) {
+        width: 110px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 445px) {
+    /* ! hero section style are here  */
+
+    .tasks :nth-child(3) {
+        width: 265px;
+      }
+    .frame {
+        margin-left: 0px;
+      }
+    .hero-person-img {
+        width: 300px;
+        left: 50px;
+    }
+
+    /*! introduction section style are here  */
+    .introduction-top {
+        width: 100%;
+        flex-direction: column;
+    }
+    .introduction-top-left {
+        width: 100%;
+    }
+    .introduction-top-left > img {
+        margin: 96px 0 0 50px;
+    }
+    .introduction-top-left > h2 {
+        padding-left: 65px;
+        font-size: 48px;
+    }
+    .introduction-top-right {
+        width: 100%;
+        padding: 40px 40px 0 65px;
+    }
+    .introduction-top-right > p {
+        font-size: 17px;
+    }
+    /*! reviews section style are here  */
+    #reviews {
+        padding-bottom: 50px;
+      }
+    .reviews-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .client1-review, .client2-review, .client3-review {
+        padding: 30px;
+    }
+    .client1-review p, .client2-review p, .client3-review p {
+        font-size: 20px;
+    }
+
+    /*! cta section style are here  */
+    .cta-left-content {
+        padding-left: 35px;
+    }
+    .cta-details > h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .cta-details > p {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .coaching, .consultation, .group_coaching {
+        width: 340px;
+        height: 300px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    /*! reviews section style are here  */
+    #reviews {
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+
+
+
+    /*! free-guide section style are here  */
+    .background {
+        max-width: 300px;
+    }
+
+    /*! footer section style are here  */
+    .footer-top-right-content :nth-child(1) {
+        width: 200px;
+    }
+    .footer-top-right-content :nth-child(2) {
+        width: 90px;
+        padding: 10px 0;
+    }
+    .footer-bottom-content {
+        gap: 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 350px) {
+    /* ! header section style are here  */
+    .header {
+        padding: 0 20px 0 40px;
+    }
+    .logo-title {
+        font-size: 18px;
+    }
+    .logo2 {
+        left: 48px;
+    }
+
+    /* ! hero section style are here  */
+    .hero-person-img {
+        width: 300px;
+        left: 20px;
+    }
+
+    /* ! introduction section style are here  */
+    .introduction-top-left > img {
+        margin: 96px 0 0 35px;
+    }
+    .introduction-top-left > h2 {
+        padding-left: 35px;
+        font-size: 48px;
+    }
+    .introduction-top-right {
+        padding: 40px 20px 0 35px;
+    }
+    .coaching > img, .consultation > img, .group_coaching > img{
+        width: 50px;
+        height: 50px;
+    }
+    .coaching, .consultation, .group_coaching {
+        width: 270px;
+        height: 230px;
+    }
+    .coaching > h4, .consultation > h4, .group_coaching > h4 {
+        margin: 5px 0 5px 0;
+        font-size: 20px;
+        width: 100%;
+    }
+    .coaching > p, .consultation > p, .group_coaching > p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    /*! reviews section style are here  */
+    #reviews {
+        padding-top: 30px;
+    }
+    
+    .client1-review, .client2-review, .client3-review {
+        padding: 15px;
+    }
+    .client1-review p, .client2-review p, .client3-review p {
+        font-size: 16px;
+    }
+
+    /*! blogs section style are here  */
+    .blogs-title {
+        padding: 40px 20px 40px 20px;
+    }
+
+    /*! footer section style are here  */
+    .footer-top-right-content :nth-child(1) {
+        width: 180px;
+    }
+    .footer-top-right-content :nth-child(2) {
+        width: 80px;
+    }
+}
+
+
+
+
+
+
+
+

@@ -30,11 +30,11 @@ body {
 
 /* ! header section style are here  */
 .header {
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    background-color: var(--white-background-color);
     padding: 0 45px 0 85px;
 }
 .header_logo {
@@ -66,7 +66,6 @@ body {
     padding: 5px;
 }
 .navigation-guide-btn {
-    width: 193px;
     height: 40px;
     font-weight: 600;
     line-height: 18.2px;
@@ -74,29 +73,36 @@ body {
     border-radius: 4px;
 }
 
+.navaigation-icon {
+    font-size: 25px;
+    display: none;
+}
+
 
 /* ! Hero section style are here  */
 #hero {
-    max-width: 1400;
+    width: 100vw;
     height: 677px;
     background-color: var(--offwhite-background-color);
     display: flex;
+    flex-direction: row;
 }
-
+.hero-left-side {
+    width: 50vw;
+}
 .hero-left-side img {
     margin-top: 55px;
     margin-left: 34px;
 }
-.hero-left-side .tekst {
-    max-width: 545px;
+.hero-left-side .tasks {
+    width: 545px;
     height: 396px;
     margin: 85px 0 0 85px;
 }
 
-.tekst :nth-child(1) {
+.tasks :nth-child(1) {
     color: var(--secondary-text-color);
-    max-width: 343px;
-    height: 24px;
+    max-width: 360px;
     opacity: 40%;
     font-size: 16px;
     font-weight: 400;
@@ -104,7 +110,7 @@ body {
     letter-spacing: -1px;
 }
 
-.tekst :nth-child(2) {
+.tasks :nth-child(2) {
     width: 520px;
     height: 172px;
     color: var(--primary-text-color);
@@ -115,7 +121,7 @@ body {
     margin-bottom: 18px;
     line-height: 86.4px;
 }
-.tekst :nth-child(3) {
+.tasks :nth-child(3) {
     width: 545px;
     height: 116px;
     font-size: 18px;
@@ -123,6 +129,7 @@ body {
     line-height: 28.8px;
     color: var(--secondary-text-color);
     margin-bottom: 18px;
+    text-align: justify;
 }
 .hero-btn {
     max-width: 250px;
@@ -134,6 +141,7 @@ body {
 }
 
 .hero-right-side {
+    width: 700px;
     position: relative;
     z-index: 1;
     
@@ -180,12 +188,16 @@ body {
 
 #introduction {
     max-width: 100vw;
-    height: 734px;
     background-color: var(--white-background-color);
     margin-top: 14px;
+    padding-bottom: 50px;
 }
 .introduction-top {
     display: flex;
+    width: 100%;
+}
+.introduction-top-left{
+    width: 50%;
 }
 .introduction-top-left > img{
     width: 101px;
@@ -193,19 +205,16 @@ body {
     margin: 96px 0 0 150px;
 }
 .introduction-top-left > h2{
-    width: 492px;
-    height: 112px;
-    margin: 32px 0 0 150px;
+    width: 100%;
+    padding: 32px 0 0 150px;
     font-size: 48px;
     font-weight: 800;
     line-height: 56px;
     letter-spacing: -1px;
 }
 .introduction-top-right {
-    width: 468px;
-    height: 200px;
-    margin-top: 129px;
-    margin-left: 74px;
+    width: 50%;
+    padding: 129px 50px 0 74px;
 }
 .introduction-top-right > p {
     font-size: 17px;
@@ -218,6 +227,8 @@ body {
     display: flex;
     margin-top: 16px;
     justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
 }
 
 .coaching, .consultation, .group_coaching {
@@ -225,6 +236,7 @@ body {
     height: 328px;
     padding: 40px;
 }
+
 .coaching > h4, .consultation > h4, .group_coaching > h4{
     width: 300px;
     height: 32px;
@@ -249,14 +261,12 @@ body {
 /* ! reviews section style are here  */
 
 #reviews {
-    width: 100%;
-    height: 879px;
+    width: 100vw;
     background-color: var(--gray-background-color);
-    padding: 139px 0 0 150px;
+    padding: 139px 20px 150px 125px;
 }
 .reviews-title {
-    width: 530px;
-    height: 112px;
+    width: 40%;
     font-size: 48px;
     font-weight: 800;
     line-height: 56px;
@@ -267,7 +277,7 @@ body {
     margin-top: 37px;
     display: flex;
     margin-left: 2px;
-    gap: 37px;
+    gap: 30px;
 }
 
 .client1-review, .client2-review, .client3-review {
@@ -275,19 +285,17 @@ body {
     flex-direction: column;
     background-color: var(--white-background-color);
     position: relative;
-    width: 390px;
-    height: 391px;
+    max-width: 392px;
     padding: 48px;
     gap: 15px;
+    margin-bottom: 20px;
 }
 .client1-review p, .client2-review p, .client3-review p {
-    width: 304px;
-    height: 128px;
     font-size: 24px;
     font-weight: 400;
 
 }
-.client1-review p span, .client2-review p span, .client3-review p span {
+#reviews {
     font-weight: 700;
 }
 .client1-review h3, .client2-review h3, .client3-review h3{
@@ -310,7 +318,7 @@ body {
     height: 75px;
     position: absolute;
     bottom: -80px;
-    left: 270px;
+    left: 70%;
 }
 .cursor-image > img {
     width: 35px;
@@ -318,23 +326,22 @@ body {
 /* ! blogs section style are here  */
 #blogs {
     background-color: var(--white-background-color);
-    height: 840px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 95px;
 }
 
+.blogs-title {
+    max-width: 680px;
+    text-align: center;
+    padding: 95px 20px 67px 20px;
+    color: var(--primary-text-color);
+}
 .blogs-items {
     display: flex;
     gap: 40px;
-}
-.blogs-title {
-    width: 680px;
-    height: 112px;
-    margin-top: 95px;
-    text-align: center;
-    margin-bottom: 67px;
-    color: var(--primary-text-color);
+    padding: 0 20px;
 }
 .blogs-title > h2{
     font-size: 48px;
@@ -343,11 +350,10 @@ body {
 }
 
 .blog-cart {
-    width: 360px;
-    height: 370px;
+    max-width: 360px;
 }
 .blog-cart img{
-    width: 360px;
+    width: 100%;
     height: 160px;
     object-fit: cover;
 }
@@ -355,16 +361,12 @@ body {
     padding: 24px 28px;
 }
 .blog-profile-details > h2 {
-    width: 300px;
-    height: 64px;
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
     color: var(--primary-text-color);
 }
 .blog-profile-details > p {
-    width: 300px;
-    height: 95px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -390,25 +392,25 @@ body {
 /* ! Free Guide style are here  */
 
 #free-guide {
-    height: 878px;
+    max-width: 100vw;
     display: flex;
     background-color: var(--white-background-color);
+    /* background-color: rgb(214, 119, 163); */
+    padding-bottom: 140px;
 }
 
 .free-guide-left {
     padding: 200px 115px 0 150px;
 }
 .free-guide-left > h2 {
-    width: 490px;
-    height: 168px;
+    max-width: 490px;
     font-size: 48px;
     font-weight: 800;
     line-height: 56px;
     color: var(--primary-text-color);
 }
 .free-guide-details {
-    width: 550px;
-    height: 200px; 
+    max-width: 550px;
 }
 .free-guide-details :nth-child(1) {
     margin-top: 22px;
@@ -437,6 +439,7 @@ body {
 
 .free-guide-right {
     position: relative;
+    margin-right: 35px;
 }
 
 .background {
@@ -540,54 +543,47 @@ body {
 /* ! Cta Style are here  */
 
 #cta {
-    width: 1440px;
-    height: 576px;
+    max-width: 100vw;
     background-color: var(--white-background-color);
     padding: 0 0 96px 0;
 }
 
 .cta-container {
-    max-width: 1280px;
-    height: 480px;
+    max-width: 90%;
     margin: 0 auto;
 }
 
 .cta-content {
-    width: 1216px;
-    height: 480px;
+    max-width: 95%;
     display: flex;
     margin: 0 auto;
     background-color: var(--offwhite-background-color);
     box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.04);
     border-radius: 24px;
+    overflow: hidden;
+    justify-content: space-between;
 }
 
 .cta-left-content {
-    width: 608px;
-    height: 350px;
-    padding: 64px 64px 64px 64px;
+    width: 50%;
+    padding: 64px 0 64px 64px;
     margin: auto 0;
 }
 .cta-details{
-    width: 480px;
-    height: 140px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .cta-details > h2 {
-    width: 550px;
-    height: 90px;
     font-size: 36px;
     font-weight: 800;
     line-height: 45px;
     color: var(--primary-text-color);
+    margin-bottom: 20px;
 }
 
 .cta-details > p {
-    width: 480px;
-    height: 30px;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -595,7 +591,7 @@ body {
 }
 
 .book-now-btn {
-    width: 250px;
+    max-width: 250px;
     height: 42px;
     padding: 9px 16px;
     border-radius: 10px;
@@ -606,7 +602,7 @@ body {
 }
 
 .cta-right-content {
-    width: 608px;
+    width: 50%;
     height: 480px;
     overflow: hidden;
     position: relative;
@@ -615,7 +611,7 @@ body {
     position: absolute;
     top: 48px;
     left: 48px;
-    width: 768px;
+    width: 125%;
     height: 512px;
     object-fit: cover;
     border-radius: 10px;
@@ -654,45 +650,42 @@ body {
 /* ! Footer section Style are here  */
 
 footer {
-    width: 1440px;
-    height: 496px;
+    width: 100vw;
 }
 
 .footer-top {
-    width: 1440px;
-    height: 180px;
+    width: 100%;
     padding: 48px 0 48px 0;
     background-color: var(--offwhite-background-color);
 }
 .footer-top-container {
-    width: 1280px;
-    height: 84px;
+    max-width: 90%;
     padding: 0 32px;
     margin: 0 auto;
 }
 .footer-top-content {
-    width: 1216px;
-    height: 84px;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
 }
 .footer-top-left-content {
-    width: 738px;
-    height: 84px;
+    max-width: 738px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-right: 20px;
 }
 
 .footer-top-left-content > h2 {
-    height: 38px;
+    max-width: 100%;
     font-size: 30px;
     font-weight: 800;
     line-height: 38px;
     color: var(--primary-text-color);
+    margin-bottom: 10px;
 }
 .footer-top-left-content > p {
-    height: 30px;
+    max-width: 100%;
     font-size: 20px;
     font-weight: 400;
     color: var(--secondary-text-color);
@@ -724,27 +717,23 @@ footer {
 
 
 .footer-bottom {
-    width: 1440px;
-    height: 316px;
+    max-width: 1440px;
     padding: 64px 0 48px 0;
     margin: 0 85px;
 }
 
 .footer-bottom-container {
-    width: 1260px;
-    height: 204px;
+    max-width: 1260px;
     padding: 0 22px;
 }
 
 .footer-bottom-content {
-    width: 1216px;
-    height: 204px;
+    max-width: 1216px;
     display: flex;
 }
 
 .footer-logo-and-details {
-    width: 320px;
-    height: 107px;
+    width: 33.33%;
     margin-right: 48px;
     display: flex;
     flex-direction: column;
@@ -778,13 +767,12 @@ footer {
 .footer-logo-details > p {
     font-size: 16px;
     font-weight: 400;
-    width: 320px;
-    height: 48px;
+    max-width: 320px;
     opacity: 50%;
     color: var(--secondary-text-color);
 }
 .footer-nav {
-    width: 400px;
+    width: 33.33%;
     margin-right: 35px;
 }
 .footer-nav > h3 , .footer-contact > h3{
@@ -796,7 +784,8 @@ footer {
     margin-bottom: 16px;
 }
 .footer-nav-links {
-    width: 400px;
+    max-width: 400px;
+    min-width: 190px;
     height: 168px;
     display: flex;
     flex-direction: column;
@@ -815,8 +804,7 @@ footer {
 
 
 .footer-contact {
-    width: 400px;
-    height: 180px;
+    width: 33.33%;
 }
 .footer-contact-details {
     width: 168px;
