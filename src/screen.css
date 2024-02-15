@@ -52,7 +52,7 @@
         justify-content: space-evenly;
         gap: 20px;
     }
-    .coaching, .consultation, .group_coaching {
+    .coaching, .consultation, .group-coaching {
         width: 350px;
         height: 300px;
         padding: 25px;
@@ -70,7 +70,7 @@
 
 @media screen and (max-width: 1100px) {
     /*! introduction section style are here  */
-    .coaching, .consultation, .group_coaching {
+    .coaching, .consultation, .group-coaching {
         width: 380px;
         height: 328px;
         padding: 40px;
@@ -647,7 +647,7 @@
 
 
 @media screen and (max-width: 400px) {
-    .coaching, .consultation, .group_coaching {
+    .coaching, .consultation, .group-coaching {
         width: 340px;
         height: 300px;
         padding: 20px;
@@ -696,7 +696,7 @@
     /* ! hero section style are here  */
     .hero-person-img {
         width: 300px;
-        left: 20px;
+        left: 10px;
     }
 
     /* ! introduction section style are here  */
@@ -710,20 +710,20 @@
     .introduction-top-right {
         padding: 40px 20px 0 35px;
     }
-    .coaching > img, .consultation > img, .group_coaching > img{
+    .coaching > img, .consultation > img, .group-coaching > img{
         width: 50px;
         height: 50px;
     }
-    .coaching, .consultation, .group_coaching {
+    .coaching, .consultation, .group-coaching {
         width: 270px;
         height: 230px;
     }
-    .coaching > h4, .consultation > h4, .group_coaching > h4 {
+    .coaching > h4, .consultation > h4, .group-coaching > h4 {
         margin: 5px 0 5px 0;
         font-size: 20px;
         width: 100%;
     }
-    .coaching > p, .consultation > p, .group_coaching > p {
+    .coaching > p, .consultation > p, .group-coaching > p {
         width: 100%;
         font-size: 12px;
     }

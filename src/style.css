@@ -37,14 +37,17 @@ body {
     height: 60px;
     padding: 0 45px 0 85px;
 }
-.header_logo {
+.header-logo {
     display: flex;
     align-items: center;
 }
 .logo1 {
     position: relative;
+    width: 25px;
+    height: 23px;
 }
 .logo2 {
+    width: 10px;
     position: absolute;
     left: 93px;
     top: 25px;
@@ -91,6 +94,8 @@ body {
     width: 50vw;
 }
 .hero-left-side img {
+    width: 101;
+    height: 17px;
     margin-top: 55px;
     margin-left: 34px;
 }
@@ -231,13 +236,13 @@ body {
     flex-wrap: wrap;
 }
 
-.coaching, .consultation, .group_coaching {
+.coaching, .consultation, .group-coaching {
     width: 380px;
     height: 328px;
     padding: 40px;
 }
 
-.coaching > h4, .consultation > h4, .group_coaching > h4{
+.coaching > h4, .consultation > h4, .group-coaching > h4{
     width: 300px;
     height: 32px;
     font-size: 24px;
@@ -248,7 +253,7 @@ body {
     margin-bottom: 16px;
     color: var();
 }
-.coaching > p, .consultation > p, .group_coaching > p{
+.coaching > p, .consultation > p, .group-coaching > p{
     width: 300px;
     height: 96px;
     font-size: 16px;
@@ -264,6 +269,7 @@ body {
     width: 100vw;
     background-color: var(--gray-background-color);
     padding: 139px 20px 150px 125px;
+    font-weight: 700;
 }
 .reviews-title {
     width: 40%;
@@ -293,11 +299,13 @@ body {
 .client1-review p, .client2-review p, .client3-review p {
     font-size: 24px;
     font-weight: 400;
+    color: var(--secondary-text-color);
 
 }
-#reviews {
+.client1-review > p > span{
     font-weight: 700;
 }
+
 .client1-review h3, .client2-review h3, .client3-review h3{
     font-size: 24px;
     font-weight: 700;
@@ -747,9 +755,16 @@ footer {
     flex-direction: row;
     gap: 10px;
 }
+
 .footer-logo-image {
     position: relative;
 }
+
+.footer-logo1 {
+    width: 25px;
+    height: 23px;
+}
+
 .footer-logo2 {
     width: 10px;
     height: 10px;
@@ -757,6 +772,7 @@ footer {
     top: 7px;
     left: 8px;
 }
+
 .footer-logo-title {
     width: 130px;
     height: 20px;
@@ -764,6 +780,7 @@ footer {
     font-weight: 800;
     margin: auto 0;
 }
+
 .footer-logo-details > p {
     font-size: 16px;
     font-weight: 400;
@@ -771,10 +788,12 @@ footer {
     opacity: 50%;
     color: var(--secondary-text-color);
 }
+
 .footer-nav {
     width: 33.33%;
     margin-right: 35px;
 }
+
 .footer-nav > h3 , .footer-contact > h3{
     width: 400px;
     height: 20px;
@@ -783,6 +802,7 @@ footer {
     line-height: 20px;
     margin-bottom: 16px;
 }
+
 .footer-nav-links {
     max-width: 400px;
     min-width: 190px;
@@ -791,6 +811,7 @@ footer {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .footer-nav-links a , .footer-contact-details > p {
     height: 24px;
     text-decoration: none;
@@ -801,11 +822,10 @@ footer {
     line-height: 24px;
 }
 
-
-
 .footer-contact {
     width: 33.33%;
 }
+
 .footer-contact-details {
     width: 168px;
     height: 144px;
