@@ -128,10 +128,11 @@
         left: 48px;
     }
     .header-navigation {
-        display: none;
+        gap: 10px;
+    /* display: none; */
     }
     .navaigation-icon {
-        display: block;
+        /* display: block; */
     }
 
     /*! blogs section style are here  */
@@ -255,6 +256,23 @@
 
 
 @media screen and (max-width:810px) {
+    .header-navigation {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        z-index: 100;
+        flex-direction: column;
+        gap: 25px;
+        padding-top: 10px;
+    }
+    
+    .navaigation-icon {
+        display: block;
+    }
     /*! blogs section style are here  */
     .blog-cart {
         max-width: 300px;

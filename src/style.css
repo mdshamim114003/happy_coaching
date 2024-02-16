@@ -36,6 +36,7 @@ body {
     align-items: center;
     height: 60px;
     padding: 0 45px 0 85px;
+    
 }
 .header-logo {
     display: flex;
@@ -57,6 +58,7 @@ body {
     margin-left: 8px;
 }
 .header-navigation {
+    position: static;
     display: flex;
     align-items: center;
     gap: 30px;
@@ -67,6 +69,12 @@ body {
     text-decoration: none;
     color : #4A556C;
     padding: 5px;
+    transition: all 0.5s ease;
+}
+
+.header-navigation a:hover {
+    background-color: var(--gray-background-color);
+    border-radius: 3px;
 }
 .navigation-guide-btn {
     height: 40px;
@@ -78,8 +86,15 @@ body {
 
 .navaigation-icon {
     font-size: 25px;
+    cursor: pointer;
     display: none;
 }
+.navaigation-cross-icon {
+    font-size: 25px;
+    display: none;
+    cursor: pointer;
+}
+
 
 
 /* ! Hero section style are here  */
